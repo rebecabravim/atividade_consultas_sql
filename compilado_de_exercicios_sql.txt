@@ -1,0 +1,300 @@
+                                Bancos de Dados I
+                       Prof. Abrantes Araújo Silva Filho
+
+-------------------------- Lista de exercícios de SQL --------------------------
+
+1) Prepare uma listagem com o primeiro nome dos funcionários.
+
+2) Prepare uma listagem com o primeiro e o último nome dos funcionários.
+
+3) Prepare uma listagem com o primeiro e o último nome dos funcionários,
+   utilizando os seguintes apelidos para as colunas: "nome" e "sobrenome".
+
+4) Prepare uma listagem com o nome completo do funcionário, e chame essa coluna
+   de "funcionario".
+
+5) Prepare uma listagem com o nome completo do funcionário, e chame essa coluna
+   de "funcionario". Ordene a listagem em ordem alfabética do nome completo.
+
+6) Inclua o salário atual do funcionário no resultado da questão 5. Chame essa
+   coluna de "salario_atual".
+
+7) Inclua, no relatório da questão 6, uma nova coluna que faça o cálculo de um
+   aumento salarial de 4% para os funcionários. Chame essa nova coluna de
+   "salario_com_aumento".
+
+8) Incluna, no relatório da questão 7, uma coluna que mostre o código do
+   departamento onde o funconário trabalha. Ordene o resultado por departamento
+   e por funcionário.
+
+9) Mude a ordenação do relatório da questão 7: ordene por departamento em ordem
+   crescente e por salário em ordem decrescente.
+
+10) Liste o nome do funcionário, sua data de contratação e seu e-mail, ordenando
+    os dados por data de contratação.
+
+11) Liste o nomne de todos os funcionários contratados para o departamento 50,
+    ou que tenham salário maior do que 10000.
+
+12) Liste o nome de todos os funcionários contratados para o departamento 50,
+    que ganhem de 4000 para baixo, ou que tenham salário entre 5000 e 8000.
+
+13) Liste todos os funcionários (nome e sobrenome) que têm salário igual ou
+    superior a 10.000. Ordene pelo nome do funcionário.
+
+14) Liste todos os funcionários (nome e sobrenome) que têm salários igual ou
+    menor do que 4.000, ou salários igual ou maior do que 10.000. Ordene pelo
+    nome do funcionário.
+
+15) Liste todos os funcionários do departamento 50 que têm salário entre 5.000 e
+    9.000. Ordene por funcionário e, depois, por salário em ordem decrescente.
+
+16) Liste todos os funcionários do departamento 50 que têm salário entre 5.000 e
+    9.000, e também os funcionários dos outros departamentos cujos salários
+    sejam menores do que 5.000 ou maiores do que 9.000. Ordene pelo nome do
+    funconário.
+
+17) Listar os códigos dos departamentos em ordem crescente e, dentro de cada
+    departamento, listar o nome completo e o salário dos funcionários, ordenando
+    em ordem decrescente de salário, mas somente dos funcionários que ganham a
+    partir de 5000 até o máximo de 10000.
+
+18) Listar os códigos dos departamentos em ordem crescente e, dentro de cada
+    departamento, listar o nome completo e o salário dos funcionários, ordenando
+    em ordem decrescente de salário, mas somente dos funcionários que ganham
+    menos do que 5000 ou funionários que ganham mais do que 10000.
+
+19) Liste todos os cargos existentes, indicando o salário mínimo, máximo e
+    médio.
+
+20) Descubra qual funcionário não está alocado a nenhum departamento.
+
+21) Liste todos os funcionários que trabalham nos departamentos 20, 50 e 80.
+
+22) Prepare um relatório com o nome completo do funcionário, a data de
+    contratação e quantos anos ele é empregado (dica: use funções como a
+    SYSDATE, TO_DATE ou TO_CHAR).
+
+23) Prepare um relatório com o nome do departamento, e o nome completo e salário
+    do funionário. Ordene por departamento e por funcionário (este em ordem
+    decrescente).
+
+24) Liste todos os funcionários da região "Americas" que ganham acima de 10.000.
+
+25) Liste todos os empregados que tenham o cargo de "Sales Representative".
+
+26) Mostre se existem funcionários que ganham mais de 10.000 e que trabalham no
+    departamento "Sales"
+
+27) Prepare um relatório que mostre o nome do empregado e o título de seu cargo
+    atual. As colunas na tabela resposta devem ser chamadas, respectivamente, de
+    "funcionario" e "cargo". Ordene a tabela por ordem alfabética dos
+    funcionários.
+
+28) Prepare um relatório que mostre os departamentos e seus funcionários. A
+    primeira coluna deve ser o nome do departamento (apelidada de
+    "departamento") e a segunda coluna deve ser o nome completo do funcionário
+    (apelidada de "empregado").
+
+29) Prepare um relatório que mostre os países e suas cidades. A coluna com o
+    nome dos países deve ser apalidade de "pais" e a coluna com o nome das
+    cidades deve ser apelidada de "cidade". Ordene o resultado por países, em
+    ordem decrescente, e por cidade em ordem crescente.
+
+30) Prepare um relatório que mostre as regiões e seus países. A coluna com o
+    nome das regiões deve se chamar "regiao" e a com o nome dos países deve se
+    chamar "pais". Ordene tudo por ordem alfabética.
+
+
+
+
+
+
+31) Prepare uma lista de empregados com o nome completo, a data de contratação,
+    o código do departamento e o salário. Essa lista deve conter todos os
+    empregados que não fazem parte dos departamentos 50, 80 e 90; esses
+    empregados devem ganhar menos do que 4.000, entre 6.000 e 8.000, ou mais do
+    que 15.000. Além disso só podem constar na listagem os empregados que foram
+    contratados entre 2002 e 2005, cujos nomes comecem com a letra "B" até "P"
+    ou que comecem com as letras "R" até "Z". AS colunas do resultado devem ser
+    chamadas, respectivamente, de "nome", "contratacao", "departamento" e
+    "salario" (nessa ordem). O resultado deve ser ordenado pelo nome completo,
+    em ordem crescente.
+
+32) Prepare um relatório que mostre o código e o nome dos departamentos da
+    empresa.
+
+33) Prepare um relatório que mostre o nome completo dos funcionários, seu
+    e-mail, salário e a data de contratação. Esse relatório deve estar ordenado
+    por ordem alfabética dos funcionários.
+
+34) Prepare um relatório que mostre quais os cargos existentes na empresa, com o
+    salário mínimo e máximo de cada cargo.
+
+35) Prepare um relatório que mostre o nome completo do funcionário e o nome do
+    cargo atual na empresa.
+
+36) Liste todos os funcionários (nome e sobrenome) que têm salário igual ou
+    superior a 10.000.
+
+37) Liste todos os funcionários (nome e sobrenome) que têm salários igual ou
+    menor do que 4.000, ou salários igual ou maior do que 10.000.
+
+38) Liste todos os funcionários do departamento 50 que têm salário entre 5.000 e
+    9.000.
+
+39) Liste todos os funcionários do departamento 50 que têm salário entre 5.000 e
+    9.000, e também os funcionários dos outros departamentos cujos salários
+    sejam menores do que 5.000 ou maiores do que 9.000.
+
+40) Faça um relatório que mostre o nome das regiões, dos países e das cidades,
+    em ordem alfabética. As colunas do resultado devem ser chamadas de "regiao",
+    "pais" e "cidade".
+
+41) Faça um relatório que mostre os países, as cidades de cada país e os
+    departamentos de cada cidade. As colunas do relatório final devem ser
+    chamadas de "pais", "cidade" e "departamento". Ordene os países em ordem
+    decrescente, as cidades em ordem crescente e os departamentos em ordem
+    decrescente.
+
+42) Faça um relatório que mostre os departamentos, os funcionários de cada
+    departamento e o título atual do cargo de cada funcionário. As colunas do
+    relatório devem ser chamadas de "dept", "func" e "cargo". Ordene por
+    departamento, funcionário e cargo. Atenção: só devem aparecer no relatório
+    os funconários que não sejam dos departamentos 30, 80 e 90 ou que não ganhem
+    mais do que 15.000.
+
+
+
+43) Faça um relatório que mostre as regiões, os países de cada região, as
+    cidades de cada país e os departamentos de cada cidade. As colunas do
+    resultado devem ser chamadas de "regiao", "pais", "cidade" e "dept". Ordene
+    tudo por ordem alfabética.
+
+44) Acrescente os funconários de cada departamento no relatório da questão 43.
+
+45) Acrescente o cargo atual do funcionário no relatório da questão 44.
+
+46) Prepare um relatório que mostre os departamentos, os gerentes de cada
+    departamento e os empregados de cada departamento. O relatório final deve
+    ter as seguintes colunas: "dept", "gerente", "funcionario". Ordene tudo por
+    ordem alfabética.
+
+47) Prepare um relatório dos departamentos cadastrados. Esse relatório deve
+    conter o código e o nome do departamento. Ordene o relatório pelo nome do
+    departamento, em ordem crescente. As colunas da tabela resposta devem ser
+    chamadas de "cod_dep" e "departamento".
+
+48) Analise o relatório da questão anterior: quantos departamentos existem na
+    empresa?
+
+49) Prepare um relatório dos empregados cadastrados. Esse relatório deve conter
+    o seguinte: código, nome COMPLETO, data de contratação (exibida no formato
+    DD-MM-YYYY) e salário. Ordene o relatório pelo nome do funcionário, em ordem
+    crescente. As colunas da tabela resposta devem ser chamadas de "cod_emp",
+    "nome", "contratacao" e "salario".
+
+50) Analise o relatório da questão anterior: quantos funcionários existem na
+    empresa?
+
+51) Prepare um relatório contendo os departamentos e seus funcionários. Esse
+    relatório deve trazer o nome e o código do departamento (com o seguinte
+    formato: "<departamento> (<cod>)"), o nome completo e o código do
+    funcionário (com o seguinte formato: "<nome> (<cod>)"), a data de
+    contratação (exibida no formato YYYY-MM-DD) e o salário do empregado. Ordene
+    o relatório pelo nome do departamente e, depois, pelo nome do
+    funcionário. As colunas da tabela de resultado devem ser chamadas de:
+    "departamento", "funcionario", "contratacao" e "salario".
+
+52) Analise os 3 relatórios que você criou nas questões 47, 49 e 51
+    (departamentos, funcionários, e departamento x funcionários). Todos os
+    departamentos estão no último relatório? Todos os funcionários estão no
+    último relatório? Se sim, explique porque todos apareceram. Se não, explique
+    o que pode ter ocorrido. Que conclusão você pode chegar, a partir dos
+    relatórios, sobre o funcionamento da INNER JOIN?
+
+53) Verifique se há regiões sem países.
+
+54) Verifique se há países sem regiões.
+
+55) Verifique se há países sem cidades.
+
+56) Verifique se há cidades sem países.
+
+57) Verifique se há cidades sem departamentos.
+
+58) Verifique se há departamentos sem cidades.
+
+59) Prepare uma listagem das cidades sem funcionários. Só devem aparecer as
+    cidades que, realmente, não tenham nenhum funcionário. O relatório deve
+    conter 2 colunas: o nome da cidade e o nome do funcionário (como não haverá
+    nenhum funcionário, o relatório deve trazer a string "---", sem as aspas, ao
+    invés de NULL). As colunas do resultado devem ser chamadas de "cidade" e
+    "funcionario", ordenado por cidade. DICA: no oracle, procure pela função
+    NVL.
+
+60) Prepare um relatório que mostre todos os funcionários e o histórico de
+    cargos. Devem aparecer no relatório as seguintes colunas: o nome completo do
+    funcionário, o título de seu cargo atual, seu salário atual e o histórico de
+    cargos, ou seja, além de aparecer o funcionário em seu cargo atual também
+    devem aparecer os cargos anteriores do funcionário. Funcionários que não
+    tenham histórico de cargos também devem aparecer no relatório. As colunas
+    devem ter os seguintes nomes: "nome", "cargo_atual", "salario",
+    "cargos_anteriores". Se o funcionário não teve cargos anteriores exibir o
+    literal "---". Ordene o relatório por nome completo do funcionário, em ordem
+    alfabética.
+
+61) Qual o maior salário dos meus funcionários?
+
+62) Qual o menor salário dos meus funcionários?
+
+63) Qual a média de salário dos meus funcionários?
+
+64) Prepare um relatório que mostre o menor salário, a média salarial, o maior
+    salário, e a quantidade total de funcionários.
+
+65) Descubra o maior salário de cada departamento.
+
+66) Prepare um relatório que mostre o menor salário, a média salarial, o maior
+    salário, e a quantidade total de funcionários, por departamento.
+
+67) Prepare um relatório que traga, para cada departamento e cada ano de
+    contratação dos funcionários, o menor salário, o salário médio, o maior
+    salário, e a quantidade de funcionários em cada departamento/ano. Só devem
+    aparecer no resultado as linhas cuja média salarial seja de, no mínimo,
+    8000, e cujos departamentos tenham código de 20 ou 80. Faça uma ordenação
+    adequada para o resultado.
+
+68) Repita o relatório da questão 67, excluindo os departamentos com códigos 20,
+    30, 40, 50 e 90. Só devem aparecer no resultado as linhas cujo salário médio
+    seja superior a 5000. Faça uma ordenação adequada.
+
+
+
+
+
+
+
+
+
+
+69) Prepare um relatório que mostre o menor salário, o salário médio, o maior
+    salário e o desvio padrão dos salários dos funcionários dos departamentos
+    cujos funcionários sejam "Shipping Clerk" ou "Sales
+    Representative". Funcionários com outros cargos não devem aparecer no
+    relatório. Somente os funcionários cujo desvio padrão do salário seja igual
+    ou superior a 500 devem aparecer. As seguintes colunas devem estar presentes
+    no relatório: nome do departamento ("departamento"), menor salário
+    ("menor_salario"), salário médio ("media_salarial"), maior salário
+    ("maior_salario") e desvio padrão dos salários ("dp_salario"). Ordene o
+    resultado por nome do departamento e por desvio padrão.
+
+70) Seu chefe quer saber qual custo mensal total dos salários dos empregados que
+    ganham exatamente o salário mínimo de um cargo ou o salário máximo de um
+    cargo. O relatório deve conter as seguintes colunas: título do cargo
+    ("cargo"), salário mínimo do cargo ("sal_min_cargo"), salário máximo do
+    cargo ("sal_max_cargo") e salário médio do cargo ("sal_med_cargo").
+
+71) Prepare um relatório que mostre o custo total dos salários dos funcionários,
+    por país. O relatório deve ter as seguintes colunas: pais e custo total dos
+    salários dos funcionários que trabalham nesse país.
